@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Circle Intersection</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="canvas" width="1000" height="750"></canvas>
+
+      <button onclick="reset()" id="reset-button">Reset</button>
+
+      <button id="about-btn">About</button>
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>About</h2>
+          <p>Program: Circle Intersection</p>
+          <p>Author: Mykhailo Kucherak</p>
+          <p>
+            Instructions: Click on the canvas to add points. Use reset button to
+            clear the area.
+            <br />
+            [just make two clicks in different places and the program will draw
+            a circle]
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
